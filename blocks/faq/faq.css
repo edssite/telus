@@ -1,0 +1,92 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  
+  .faq h1{
+    font-family: HNforTELUSSA300normal;
+    font-size: 28px;
+    font-weight: normal;
+    color: #4B286D;
+    margin: 0px 0px 32px;
+    padding: 0px 0px 0px;
+  }
+
+  .faq > div:not(:first-child) {
+    margin: 0px 0px;
+    max-width: 1200px;
+    border-top: 1px solid rgba(178,185,191);
+    background-clip: padding-box;
+  }
+
+  .faq > div:last-child {
+    border-bottom: 1px solid rgba(178,185,191,1.00);/* Add a line below the last FAQ item */
+    border-top: 1px solid rgba(178,185,191); /* Optional spacing below the line */
+}
+
+.faq > div:nth-child(9) {
+    border-bottom: 1px solid rgba(178,185,191);
+    margin-bottom: 72px; 
+}
+
+  .faq h3 {
+    font-family: HNforTELUSSA500normal;
+    font-size: 16px;
+    font-weight: normal;
+    background: #ffffff;
+    padding: 15px 0px 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    justify-content: flex-start; /* Align items to the left */
+    color: #414547;
+  }
+  .faq-container {
+    margin-bottom: 0px !important;
+  }
+  .faq h3:hover {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    justify-content: flex-start; /* Align items to the left */
+    background-color: #f9f9f9; /* Light grey background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); /* Optional shadow */
+  }
+  
+  .faq h3::before {
+    content: "⌄";
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    transition: transform 0.1s;
+  }
+  
+  .faq h3.active::before {
+    margin-left: 15px;
+    transform: rotate(180deg);
+  }
+  
+  .faq p {
+    display: none;
+    font-family: HNforTELUSSA400normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #414547;
+    background: #fff;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    width: 1168px;
+    padding-left: 50px;
+  }
+  
+  .faq a {
+    color: #2A8000;
+  }
+  

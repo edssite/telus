@@ -1,0 +1,32 @@
+.info-cards > div{
+    display: flex;
+    max-width: 1168px;
+    margin-bottom: 64px;
+    
+}
+
+.info-cards img {
+    width: 40px;
+   
+}
+
+.info-cards h3{
+    font-family: HNforTELUSSA500normal;
+    font-size: 20px;
+    font-weight: normal;
+    color: #2C2E30;
+    margin: 0px 0px 0px;
+    padding: 0px 16px;
+    text-align: center;  
+}
+
+.info-cards p{
+    font-family: HNforTELUSSA400normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #414547;
+    max-width: 268px;
+    padding: 0px 16px;
+    margin-top: 8px;
+    text-align: center;
+}

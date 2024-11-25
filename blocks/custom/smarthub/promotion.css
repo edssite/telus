@@ -1,0 +1,45 @@
+.promotion-container {
+    color: #FFFFFF;
+    
+}
+
+.promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.promotion > div {
+    max-width: 1477px;
+    max-height: 500px;
+   
+}
+
+.promotion p{
+    color: #414547;
+    font-family: HNforTELUSSA400normal;
+    font-size: 16px;
+    padding: 0px 0px;
+    margin-top: 16px;
+    max-width: 468px;
+    max-height: 72px;
+}
+
+.promotion h1{
+    font-family: HNforTELUSSA300normal;
+    font-size: 40px;
+    font-weight: normal;
+    color: #4B286D;
+    margin: 0px 0px 0px;
+    padding: 0px 0px;
+    max-width: 468px;
+    max-height: 96px;
+}
+
+.promotion img {
+    max-width: 668px;
+    max-height: 349.11px;
+    padding: 0px 16px;
+}
