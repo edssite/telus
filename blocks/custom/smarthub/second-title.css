@@ -1,0 +1,15 @@
+.second-title-continer{
+    color: #FFFFFF;
+    
+}
+
+.second-title h1{
+    font-family: HNforTELUSSA300normal;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: normal;
+    color: #4B286D;
+    margin: 64px 0px 96px;
+    padding: 0px 16px;
+    text-align: center
+}

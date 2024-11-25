@@ -1,0 +1,68 @@
+.previous-page{
+    font-family: HNforTELUSSA500normal;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px 0px;
+    color: #414547;
+}
+
+.previous-page p{
+    margin: 0 auto;
+}
+.previous-page > div a { 
+    color: #414547; 
+    text-decoration: underline; 
+}
+
+.page-title-container {
+    background-color: #FAFAFA;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title > div > div a.button{
+    font-family: HNforTELUSSA500normal;
+    color: #FFFFFF;
+    background-color: #2A8000;
+    
+}
+
+.page-title > div > div a.button:hover { 
+    background-color: #1E6000; /* Darker green on hover */
+}
+.page-title > div {
+    max-width: 1477px;
+    max-height: 476.38px;
+}
+
+.page-title h2{
+    font-family: HNforTELUSSA700normal;
+    font-size: 14px;
+    font-weight: normal;
+    color: #2C2E30;
+    padding: 0px 16px;
+    margin-bottom: 8px;
+}
+
+.page-title p{
+    color: #2C2E30;
+    padding: 0px 16px;
+}
+
+.page-title h1{
+    font-family: HNforTELUSSA300normal;
+    font-size: 56px;
+    font-weight: normal;
+    color: #4B286D;
+    margin: 0px 0px 0px;
+    padding: 0px 16px;
+}
+
+.page-title img {
+    max-width: 568px;
+    max-height: 476.38px;
+}

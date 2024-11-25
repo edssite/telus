@@ -10,6 +10,15 @@
  * governing permissions and limitations under the License.
  */
 
+@import url("../blocks/faq/faq.css");
+ @import url("../blocks/custom/smarthub/page-title.css");
+ @import url("../blocks/custom/smarthub/cards-title.css");
+ @import url("../blocks/custom/smarthub/deals-cards.css");
+ @import url("../blocks/custom/smarthub/eligibility-link.css");
+ @import url("../blocks/custom/smarthub/info-cards.css");
+ @import url("../blocks/custom/smarthub/promotion.css");
+ @import url("../blocks/custom/smarthub/second-title.css");
+
 :root {
   /* colors */
   --background-color: white;
@@ -229,7 +238,7 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+  margin: 0px 0;
 }
 
 main > .section > div {
