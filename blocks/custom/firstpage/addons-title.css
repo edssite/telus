@@ -1,0 +1,36 @@
+.addons-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.addons-title h2{
+    font-family: HNforTELUSSA300normal;
+    font-size: 40px;
+    font-weight: normal;
+    color: #4B286D;
+    margin: 0px 0px 0px;
+    padding: 0px 16px;
+    max-width: 568px;
+}
+
+.addons-title img {
+    max-width: 568px;
+    max-height: 476.38px;
+}
+
+.addons-title > div {
+    max-width: 1477px;
+    max-height: 476.38px;
+}
+
+.addons-title p{
+    color: #2C2E30;
+    padding: 0px 16px;
+    font-family: HNforTELUSSA400normal;
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 568px;
+}
+

@@ -1,0 +1,99 @@
+.other-pages {
+    display: flex;
+    gap: 650px;
+    font-size: 12px;
+    max-width: 1200px;
+}
+.other-pages > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-pages > div > div {
+    margin: 0px;
+    padding: 0px;
+}
+.other-pages h5{
+    font-family: HNforTELUSSA500normal;
+    font-size: 14px;
+    color: rgba(65, 69, 71, 1.00);
+    font-weight: normal;
+}
+
+.other-pages > div a.button {
+    font-family: HNforTELUSSA500normal; 
+    font-size: 14px;
+    color: #414547; 
+    font-weight: normal;
+    background-color: #FFFFFF;
+    text-decoration: none; 
+    display: inline-flex; 
+    align-items: center; 
+    padding: 2px;
+    margin-left: 20px;
+}
+
+.other-pages > div a.button:hover {
+    color: #4B286D; 
+    background-color: #FAFAFA; 
+    text-decoration: none; 
+    align-items: center; 
+    border: 2px solid #4B286D;
+    border-radius: 20px; 
+    margin-left: 20px
+}
+
+.get-started-button-container{
+    padding-bottom: 72px;
+}
+
+.get-started-button-wrapper {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;    
+}
+
+.get-started-button {
+    background-color: #FFFFFF;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 40px 30px; 
+    text-align: center; 
+    width: 600px ;
+    padding: 31px 15px;
+}
+
+.get-started-button h3 {
+    font-family: HNforTELUSSA500normal;
+    font-size: 20px;
+    font-weight: normal;
+    color: #2C2E30;
+    margin-bottom: 32px; 
+    margin-top: 0px;
+    text-align: center;
+}
+
+.get-started-button p{
+    margin: 0px;
+}
+
+.get-started-button > div a.button {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: HNforTELUSSA500normal;
+    font-size: 16px;
+    font-weight: normal; 
+    color: #FFFFFF;
+    background-color: #2A8000;
+    margin: 0px;
+    padding: 10px 200px; 
+    border-radius: 36px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.get-started-button a.button:hover {
+   background-color: #1E6000;
+}
+

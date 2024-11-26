@@ -18,6 +18,9 @@
  @import url("../blocks/custom/smarthub/info-cards.css");
  @import url("../blocks/custom/smarthub/promotion.css");
  @import url("../blocks/custom/smarthub/second-title.css");
+ @import url("../blocks/custom/firstpage/add-ons.css");
+ @import url("../blocks/custom/firstpage/addons-title.css");
+ @import url("../blocks/custom/firstpage/add-ons-cards.css");
 
 :root {
   /* colors */

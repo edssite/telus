@@ -1,0 +1,52 @@
+.add-ons-cards > div{
+    display: flex;
+    margin-bottom: 72px;
+    margin-top: 40px;
+}
+
+.add-ons-cards img{
+    max-width: 268px; 
+}
+
+.add-ons-cards h4{
+    font-family: HNforTELUSSA500normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2C2E30;
+    margin: 0px 0px 20px;
+    padding: 0px 16px; 
+}
+
+.add-ons-cards p{
+    font-family: HNforTELUSSA400normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2C2E30;
+    max-width: 268px;
+    padding: 0px 16px;
+    margin-top: 8px;
+}
+
+.add-ons-cards > div a.button {
+    font-family: HNforTELUSSA300normal; 
+    color: #2A8000; 
+    background-color: transparent; 
+    text-decoration: none; 
+    display: inline-flex; 
+    align-items: center; 
+    padding: 0px;
+}
+
+.add-ons-cards > div > div a.button::after {
+    content: "→"; 
+    font-size: 1rem; 
+    margin-left: 5px; 
+    color: inherit; 
+    transition: transform 0.2s ease; 
+}
+
+.add-ons-cards > div > div a.button:hover::after {
+    transform: translateX(4px); 
+}
+
+
